@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_view_margin">15dp</dimen>
+    <dimen name="card_view_corner_radius">15dp</dimen>
+    <dimen name="card_view_card_elevation">7dp</dimen>
+    <dimen name="text_view_size_overview">18sp</dimen>
+    <dimen name="text_view_title">30sp</dimen>
+    <dimen name="default_view_margin">15dp</dimen>
+    <dimen name="default_view_padding">15dp</dimen>
+    <dimen name="image_view_backdrop_alpha">0.5</dimen>
+</resources>

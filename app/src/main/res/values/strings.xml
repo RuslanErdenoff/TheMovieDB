@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheMovieDB</string>
+    <string name="date_release">Дата выпуска: </string>
+    <string name="search_hint">Название фильма...</string>
+    <string name="db_insert">Добавлено в избранное</string>
+    <string name="db_delete">Убрано из избранного</string>
+    <string name="empty">Список пуст :(</string>
+</resources>

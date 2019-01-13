@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_detail_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+    <ImageView
+        android:id="@+id/image_view_backdrop_detail"
+        android:alpha="@dimen/image_view_backdrop_alpha"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/aqua_2"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/image_view_poster_detail"
+                    android:scaleType="fitXY"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="250dp"
+                    android:src="@drawable/aqua_1"/>
+                <LinearLayout
+                    android:paddingLeft="@dimen/default_view_padding"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/text_view_title_detail"
+                        android:fontFamily="@font/forgoten_november"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_view_title"
+                        android:text="Аквамен"/>
+                    <TextView
+                        android:id="@+id/text_view_tagline_detail"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_view_size_overview"
+                        android:text="Море зовет"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/text_view_rating_detail"
+                            android:layout_marginRight="@dimen/default_view_margin"
+                            android:textSize="@dimen/text_view_size_overview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(3.3)"/>
+                        <android.support.v7.widget.AppCompatRatingBar
+                            android:id="@+id/rating_bar"
+                            style="@style/Widget.AppCompat.RatingBar.Small"
+                            android:stepSize="0.1"
+                            android:numStars="10"
+                            android:rating="3.3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/text_view_genres_detail"
+                        android:padding="@dimen/default_view_padding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="боевик, фэнтези, приключения, фантастика"/>
+                    <TextView
+                        android:id="@+id/text_view_date_release_detail"
+                        android:padding="@dimen/default_view_padding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Дата выхода: 2018-12-15"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/text_view_overview_detail"
+                android:layout_marginTop="@dimen/default_view_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_view_size_overview"
+                android:text="Действие фильма разворачивается в необъятном и захватывающем подводном мире семи морей, а сюжет знакомит зрителей с историей происхождения получеловека-полуатланта Артура Карри и ключевыми событиями его жизни — теми, что заставят его не только столкнуться с самим собой, но и выяснить, достоин ли он быть тем, кем ему суждено… царем! Действие фильма разворачивается в необъятном и захватывающем подводном мире семи морей, а сюжет знакомит зрителей с историей происхождения получеловека-полуатланта Артура Карри и ключевыми событиями его жизни — теми, что заставят его не только столкнуться с самим собой, но и выяснить, достоин ли он быть тем, кем ему суждено… царем!"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
